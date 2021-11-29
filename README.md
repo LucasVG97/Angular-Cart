@@ -18,7 +18,7 @@ npm i
 
 ## Open the Server
 
-ng serve--open
+ng serve --open
 
 Or you can use ng serve and navigate to http://localhost:4200/
 
