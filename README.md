@@ -5,12 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Git Clone
 
-git clone https://github.com/phricardorj/netflix-angular.git
+git clone https://github.com/LucasVG97/Angular-Cart.git
 
 
 ## Go to directory
 
-cd netflix-angular
+cd Angular-Cart
 
 ## Install Dependencies
 
