@@ -1,0 +1,38 @@
+
+ul{
+    list-style: none;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+li{     
+    width: 2rem;
+    padding: 2px;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+}
+
+li:hover{
+    background-color: rgb(174, 0, 255);
+    border-radius: 0.3rem;
+}
+
+
+a{
+    width: 100%;
+}
+
+.fa-shopping-cart{
+    font-size: 1.5em;
+    color: rgb(223, 205, 255);
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-shopping-cart:hover{
+    color: aliceblue;
+}
+
+

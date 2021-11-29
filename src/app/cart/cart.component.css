@@ -1,0 +1,46 @@
+.chart-wrapper{
+    text-align: center;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    margin-top: 1rem;
+    width: 15rem;
+    background-color: rgb(223, 205, 255);
+    cursor: pointer;
+    border-radius:  0.3rem;
+    border: 1px solid rgba(174, 0, 255, 0.781);
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(174, 0, 255);
+    color: white;
+}
+.name a{
+    text-decoration: none;
+    color: rgba(174, 0, 255, 0.781);
+}
+
+.clBtn{
+    margin-right: 0.3rem;
+}
+.ckBtn{
+    margin-left: 0.3rem;
+}
+

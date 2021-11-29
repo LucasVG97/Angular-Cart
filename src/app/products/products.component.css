@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+article .product-wrapper{
+    width: 22rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.5rem;
+    align-items: center;
+    font-size: 1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5) 100%),url(../../assets/bg18.jpg);
+    color: rgb(223, 205, 255);
+    transition: 0.3s;
+  }
+  
+  article .product-wrapper:hover {
+    transform: translateY(-3px);
+  }
+
+.price{
+    color:rgba(174, 0, 255, 0.781);
+}
+

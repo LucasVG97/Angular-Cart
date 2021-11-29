@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 8rem;
+    width: 100%;
+    background: url(../../assets/bg5.jpg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+.siteName a{
+    width: 10rem;
+    color: rgb(223, 205, 255);
+    position: relative;
+    margin-top: 0.8rem;  
+    margin-left: 1rem; 
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+.siteName a:hover{
+    color: aliceblue;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    
+}
+

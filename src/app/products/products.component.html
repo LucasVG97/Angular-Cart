@@ -1,0 +1,14 @@
+<div class="content">
+    <div class="products">
+        <h1>Choose Your Product</h1>
+        <article *ngFor="let product of products">
+            <a [routerLink]="['/products', product.PRODUCT.id]">
+                <div class="product-wrapper">
+                    <div [innerHTML]="product.PRODUCT.image"></div>
+                    <p class="name">{{ product.PRODUCT.name }}</p>
+                    <h3 class="price">$ {{ product.PRODUCT.price.toFixed(2)}}</h3>
+                </div>
+            </a>
+        </article>
+    </div>
+</div>

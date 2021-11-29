@@ -1,0 +1,24 @@
+<div class="chart-wrapper">
+    <h1>Shopping Cart</h1>
+    <h2>Total: $ {{ this.totalPrice }},00</h2>
+    <div class="cart">
+        <article *ngFor="let product of shoppingCart">
+            <h1>
+                <div [innerHTML]="product.image"></div>
+                <p class="name"><a [routerLink]="['/products', product.id]">{{ product.name }}</a></p>
+                Price: $ {{ product.price }}
+            </h1>
+            <p>
+                <i class="fas fa-arrow-circle-left" width="12px"
+                    (click)="removeOneProduct(product.id, product.price, product.numberOfProducts)"></i>
+                <span> {{ product.numberOfProducts }} </span>
+                <i class="fas fa-arrow-circle-right" width="12"
+                    (click)="addProduct(product.id, product.name, product.price, product.image, product.numberOfProducts)"></i>
+            </p>
+            <button (click)="removeProduct(product, product.price, product.numberOfProducts)">Remove Product</button>
+        </article>
+    </div>
+    <button (click)="cleanCart()" class="clBtn">Clean Cart</button>
+    <button [routerLink]="['/checkout']" class="ckBtn">Checkout</button>
+
+</div>

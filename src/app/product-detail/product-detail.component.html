@@ -1,0 +1,12 @@
+<div class="content">
+    <div class="product-wrapper">
+        <div class="img" [innerHTML]="product.PRODUCT.image"></div>
+        <h1>{{ product.PRODUCT.name }}</h1>
+        <h3>Price: $ {{ product.PRODUCT.price.toFixed(2) }}</h3>
+        <button [routerLink]="['/shopping-cart']"
+            (click)="addProduct(product.PRODUCT.id, product.PRODUCT.name, product.PRODUCT.price, product.PRODUCT.image, product.PRODUCT.numberOfProducts)">
+            Buy <i class="fas fa-shopping-bag"></i>
+        </button>
+
+    </div>
+</div>
