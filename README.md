@@ -6,6 +6,7 @@ An additional microservice was made to be consumed by the game-form and game-lis
 ## Git Clone
 
 git clone https://github.com/LucasVG97/Angular-Cart.git
+
 git clone https://github.com/LucasVG97/Game-Microservice
 
 ## Run game service application (backend)
