@@ -14,7 +14,8 @@ export class CartComponent implements OnInit {
   shoppingCart: Array<any> = this.persistenceService.loadFromLocalStorage("shoppingCart");
   totalPrice: number = 0;
 
-  constructor(private productsService: ProductsService, private persistenceService: PersistenceService) {}
+  constructor(
+    private productsService: ProductsService, private persistenceService: PersistenceService) {}
 
   ngOnInit(): void {}
 

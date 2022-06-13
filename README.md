@@ -1,26 +1,28 @@
 # ShoppingCart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
-
+An additional microservice was made to be consumed by the game-form and game-list components, you can find it and clone following [this link](https://github.com/LucasVG97/Game-Microservice)
 
 ## Git Clone
 
 git clone https://github.com/LucasVG97/Angular-Cart.git
+git clone https://github.com/LucasVG97/Game-Microservice
 
+## Run game service application (backend)
 
-## Go to directory
+Open your Game-microservice with Vs Code, intelliJ or any of your favorite IDE and run the application
 
-cd Angular-Cart
+## Go to Angular-cart directory and install Dependencies
 
-## Install Dependencies
+Open Angular-cart directory and run the following command:
 
 npm i
 
 ## Open the Server
 
-ng serve --open
+npm run start
 
-Or you can use ng serve and navigate to http://localhost:4200/
+Navigate to http://localhost:4200/
 
 ## Code scaffolding
 

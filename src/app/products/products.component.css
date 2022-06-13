@@ -1,6 +1,8 @@
 .content{
     display: flex;
     justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
   
 }
 
@@ -8,6 +10,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 article{
@@ -42,5 +45,22 @@ article .product-wrapper{
 
 .price{
     color:rgba(174, 0, 255, 0.781);
+}
+
+.games{
+    display: flex;
+    max-width: 30rem;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+
+}
+
+.games a{
+    color: rgb(223, 205, 255);
+}
+
+h1{
+    margin-bottom: 2.5rem;
 }
 

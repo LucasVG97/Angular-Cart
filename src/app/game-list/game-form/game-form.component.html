@@ -1,0 +1,35 @@
+<mat-card>
+
+  <mat-toolbar color="accent">Game Data</mat-toolbar>
+
+  <mat-card-content>
+    <form [formGroup]="form" class="form">
+      <mat-form-field appearance="outline">
+        <mat-label>Game Name</mat-label>
+        <input matInput formControlName="name" [(ngModel)]="gameValue">
+        <button *ngIf="gameValue" matSuffix mat-icon-button aria-label="Clear" (click)="gameValue=null">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Game Genre</mat-label>
+        <mat-select formControlName="genre" [(ngModel)]="genreValue">
+          <mat-option> None </mat-option>
+          <mat-option value="Action">Action</mat-option>
+          <mat-option value="Adventure">Adventure</mat-option>
+          <mat-option value="FPS">FPS</mat-option>
+          <mat-option value="MOBA">MOBA</mat-option>
+          <mat-option value="RPG">RPG</mat-option>
+          <mat-option value="Another">Another</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-card-actions>
+        <button mat-raised-button color="accent" (click)="onSubmit()">Save</button>
+        <button mat-raised-button color="accent" (click)="onCancel()">Cancel</button>
+      </mat-card-actions>
+    </form>
+  </mat-card-content>
+
+</mat-card>

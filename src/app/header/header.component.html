@@ -1,6 +1,5 @@
-<div class="header">
-    <h1 class="siteName"><a [routerLink]="['']">TechStore</a></h1>
-    <div class="menu">
-        <app-menu></app-menu>
-    </div>
-</div>
+<mat-toolbar color="primary">
+    <span><h1 class="siteName"><a [routerLink]="['']">TechStore</a></h1></span>
+    <span class="space"></span>
+    <a [routerLink]="['/shopping-cart']"><i class="fas fa-shopping-cart"></i></a>
+</mat-toolbar>

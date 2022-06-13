@@ -1,0 +1,43 @@
+.mat-elevation-z8 {
+  width: 100%;
+
+}
+
+.mat-column-id{
+  width: auto;
+  border: none;
+  text-align: center;
+}
+
+.mat-column-name {
+  width: auto;
+  border: none;
+  text-align: center;
+}
+
+.mat-column-actions{
+  width: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 0;
+
+}
+.mat-column-genre{
+  border: none;
+  text-align: center;
+  padding-left: 1.5rem;
+}
+
+.add-header{
+  margin-top:0.35rem;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.116);
+}
